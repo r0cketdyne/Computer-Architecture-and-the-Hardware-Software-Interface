@@ -160,3 +160,16 @@ I hope that this reading takes you down a long path of discovery, but don’t fo
 If you enjoyed the Feynman lecture above, you may be excited to know that he taught an entire introductory course on computation available in book form as Feynman Lectures on Computation. There are several other books that provide a good high-level introduction: a popular one is Code by Charles Petzold, another is But How Do It Know by J Clark Scott.
 
 For those looking for an introduction to computer architecture from a more traditional academic perspective, I recommend P&H chapters 1.3-1.5 and 2.4, as well as an 61C lecture from 55:51 onward I'll upload sometime soon.
+
+#Lab: Writing a Virtual Machine
+
+This lab-style class aims to consolidate your understanding of the fetch-decode-execute cycle by having you implement a simple virtual machine.
+
+#Pre-class Work
+In preparation, please review any new concepts from last class, and read the in-class exercise instructions.
+
+#In-class Exercise
+In class, you will begin to write a virtual machine for a very simple architecture that we have designed. The purpose of this exercise is to consolidate your understanding of the fetch-decode-execute model by writing a program that emulates it!
+
+#Post-class Work
+Please complete your virtual machine implementation as we will be building upon it in a later class.
