@@ -15,6 +15,8 @@ I'd recommend working through at least the first three chapters of SICP and comp
 
 For those who find SICP too challenging, _[How to Design Programs](http://www.htdp.org/)_ is recommended. Conversely, for those who find it too easy, _[Concepts, Techniques, and Models of Computer Programming](https://smile.amazon.com/Concepts-Techniques-Models-Computer-Programming/dp/0262220695/)_ is suggested.
 
+For those who've never programmed before but yould like to: https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_getting_started
+
 As software engineers, we study computer architecture to be able to
 understand how our programs ultimately run. Our immediate reward
 is to be able to write faster, more memory-efficient and more secure
