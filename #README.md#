@@ -7,13 +7,13 @@ uploaded for my fb/irl friend Nicolas Sadirac
 
 ### Programming
 
-Most undergraduate computer science programs kick off with an introductory course on programming. These courses are designed not only for beginners but also to reintroduce foundational concepts and programming paradigms to those who may have missed them initially.
+Most undergraduate CS programs start with an “introduction” to computer programming. The best versions of these courses cater not just to novices, but also to those who missed beneficial concepts and programming models while first learning to code.
 
-My go-to recommendation for this foundational content is the seminal work, _Structure and Interpretation of Computer Programs_ (SICP), which is freely available online as both a [book](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) and a series of [MIT video lectures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). However, for a more tailored approach to new students, we suggest [Brian Harvey’s SICP lectures](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) from the 61A course at Berkeley, which offer a more refined and student-friendly presentation.
+My standard recommendation for this content is the classic _Structure and Interpretation of Computer Programs_, which is available online for free both as [a book](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html), and as a set of [MIT video lectures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). While those lectures are great, my video suggestion is actually [Brian Harvey’s SICP lectures](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (for the 61A course at Berkeley) instead. These are more refined and better targeted at new students than are the MIT lectures.
 
-I'd recommend working through at least the first three chapters of SICP and complete the exercises for a solid foundation. For further practice, engaging with small programming problems on platforms like [exercism](http://exercism.io) can be beneficial.
+I recommend working through at least the first three chapters of SICP and doing the exercises. For additional practice, work through a set of small programming problems like those on [exercism](http://exercism.io) or at 01-edu's cursus.
 
-For those who find SICP too challenging, _[How to Design Programs](http://www.htdp.org/)_ is recommended. Conversely, for those who find it too easy, _[Concepts, Techniques, and Models of Computer Programming](https://smile.amazon.com/Concepts-Techniques-Models-Computer-Programming/dp/0262220695/)_ is suggested.
+For those who find SICP too challenging, we recommend _[How to Design Programs](http://www.htdp.org/)_. For those who find it too easy, I recommend _[Concepts, Techniques, and Models of Computer Programming](https://smile.amazon.com/Concepts-Techniques-Models-Computer-Programming/dp/0262220695/)_.
 
 As software engineers, we study computer architecture to be able to
 understand how our programs ultimately run. Our immediate reward
