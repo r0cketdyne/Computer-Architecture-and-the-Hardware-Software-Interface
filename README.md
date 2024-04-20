@@ -1,5 +1,5 @@
-# Prrogramming, Computer Architecture and the Hardware Software Interface
-uploaded for my fb/irl friend Nicolas Sadirac
+# Programming, Computer Architecture and the Hardware Software Interface
+uploaded for my fb/irl friend Nicolas Sadirac (repo actively under construction)
 
 
 
