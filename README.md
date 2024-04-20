@@ -2,9 +2,7 @@
 uploaded for my fb/irl friend Nicolas Sadirac
 
 
-To understand a program you must become both the
-machine and the program.
-Alan Perlis, Epigrams
+"To understand a program you must become both the machine and the program." - Alan Perlis, Epigrams
 
 
 As software engineers, we study computer architecture to be able to
@@ -79,3 +77,45 @@ for progress from this point is shifting
 to software systems.
 
 # Recommended Resources
+Please endeavor to complete all of the prework for each class.
+Doing so will help us cover more content overall, and to spend
+more time on the kind of interactive activities that we can only do in person.
+I’ve done my best to keep the prework short, interesting
+and relevant, so please let me know if there’s anything that seems off
+topic or unreasonably long or uninteresting.
+
+“P&H” below refers Patterson and Hennessy’s Computer Organization and Design—a classic text, very commonly used in undergraduate computer architecture courses. Chapter references are for the
+5th edition, but older editions should be close in content.
+
+Computer Organization and Design
+is one of the most successful, lasting
+textbooks in all of computer science.
+The authors are living legends, having
+pioneered RISC and created MIPS.
+David Patterson now works as a
+researcher at Google after 40 years
+as a Professor at UC Berkeley, and
+John Hennessy was most recently
+President of Stanford before becoming
+Chairman of Alphabet.
+
+For those who prefer video-based courseware, my recommended
+supplement to my own course is the Spring 2015 session of Berkeley’s 61C course “Great ideas in computer architecture” available on
+the Internet Archive.
+For students who have some extra time and would like to do some
+more project-based preparatory work, I recommend the first half
+of The Elements of Computing Systems (a.k.a. Nand2Tetris) which is
+available for free online.
+For those with no exposure to C, I strongly recommend working
+through some of The C Programming Language (a.k.a “K&R C”)
+before the course commences. I will have one class covering C,
+but the more familiar you are, the better.
+Finally, an alternative textbook which we like is Computer Systems: A Programmer’s Perspective. If you find the P&H book too
+hardware-focused, CS:APP may be worth a try. It uses a different
+architecture (a simplified version of x86) but the book is good
+enough that the extra translation effort may be worthwhile.
+
+#The Fetch-Decode-Execute Cycle
+My first class will aim to help you develop a high level understanding
+of the major components of a modern computer system—including
+those within the CPU itself—and how each is involved in the execution of a program.
