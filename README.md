@@ -22,7 +22,7 @@ and writing assembly language programs to explore a typical instruction set arch
 We’ll primarily use MIPS as our
 example architecture, and introduce
 x86-64 towards the end of the course
-as a point of comparison. We chose
+as a point of comparison. I chose
 MIPS because of its relative simplicity:
 it was one of the reduced instruction
 set computer (RISC) architectures, and
@@ -44,7 +44,7 @@ most phones.
 With a better understanding of program 2 We’ll primarily use MIPS as our
 example architecture, and introduce
 x86-64 towards the end of the course
-as a point of comparison. We chose
+as a point of comparison. I chose
 MIPS because of its relative simplicity:
 it was one of the reduced instruction
 set computer (RISC) architectures, and
@@ -110,7 +110,7 @@ For those with no exposure to C, I strongly recommend working
 through some of The C Programming Language (a.k.a “K&R C”)
 before the course commences. I will have one class covering C,
 but the more familiar you are, the better.
-Finally, an alternative textbook which we like is Computer Systems: A Programmer’s Perspective. If you find the P&H book too
+Finally, an alternative textbook which I like is Computer Systems: A Programmer’s Perspective. If you find the P&H book too
 hardware-focused, CS:APP may be worth a try. It uses a different
 architecture (a simplified version of x86) but the book is good
 enough that the extra translation effort may be worthwhile.
@@ -119,3 +119,44 @@ enough that the extra translation effort may be worthwhile.
 My first class will aim to help you develop a high level understanding
 of the major components of a modern computer system—including
 those within the CPU itself—and how each is involved in the execution of a program.
+
+Broadly, the architecture of most modern computers is often but controversially called the “von Neumann architecture” after the prodigious mathematician and computer science pioneer John von Neumann. Specifically, von Neumann was a consultant on the EDVAC project and wrote a report about it that you could say went viral.
+
+EDVAC was one of the first binary digital computers, and a successor to ENIAC which used decimal encodings but is considered by many to be the first digital computer.
+
+Sadly, J. Presper Eckert and John Mauchly who in fact created the “von Neumann architecture” for the ENIAC are not as well known.
+
+I will add a photo to this repo of jvn standing with J. Robert Oppenheimer in front of the IAS machine, built under von Neumann’s direction based on the design in the EDVAC report. IAS was built at the Institute of Advanced Studies at Princeton. Oppenheimer and von Neumann previously worked together on the Manhattan Project.
+
+We will see that a useful model of program execution is that the CPU will repeatedly fetch an instruction from memory, decode it to determine which logic gates to utilize, then execute it and store the results. By the end of the class, you should be able to confidently describe this fetch-decode-execute process, including how the primary components of the system play a role in each step. You should also be able to simulate this process by implementing a very simple virtual machine, which will you start in class and finish as post-class work.
+
+Along the way, I will discuss how computers come to be architected this way, how they have evolved to perform this basic function at tremendous speed, and how the binary encodings of both instructions and data are tightly related to hardware components. These are themes that we will continue to explore throughout the course.
+
+#Pre-class Work
+Prior to class, please do two things:
+
+#1: 
+A diagram you have drawn of the main components of a computer, and how they are connected; and,
+
+#2: 
+A paragraph or two of prose describing your understanding of the fetch-decode-execute cycle, and how the relevant components of the computer are involved in each step.
+
+In both cases, please go into as much detail as possible! I hope that you will spend at least an hour or two researching the topic and pushing your understanding as you draw the diagram and write the description.
+
+There are many resources that you could use as a starting point, but there are two in particular that I recommend: Richard Feynman’s introductory lecture (1:15 hr) and the article How Computers Work: The CPU and Memory.
+
+Richard Feynman is of course better know for his contributions to physics, but he did spend some time thinking about computing, including a lecture series on computation referenced in the further readings for this class, and some work on the Connection Machine. Like von Neumann and Oppenheimer above, Feynman too worked on the Manhattan Project—he was 24 when he joined.
+
+The first is very conceptual; the second is more concrete. Both are useful angles.
+
+While watching the Feynman lecture, you may wish to ask yourself which actual physical components correspond to each of Feynman’s metaphors. For instance, what are the physical equivalents of the “cards” that Feynman describes, and what hardware is used to “file” as opposed to “process” these cards?
+
+While reading the article, please look up any terms or concepts where your understanding is at all vague.
+
+I hope that this reading takes you down a long path of discovery, but don’t forget to incorporate your discoveries into your diagram and description, and submit them to (presumably Bocal).
+
+#Further Resources
+
+If you enjoyed the Feynman lecture above, you may be excited to know that he taught an entire introductory course on computation available in book form as Feynman Lectures on Computation. There are several other books that provide a good high-level introduction: a popular one is Code by Charles Petzold, another is But How Do It Know by J Clark Scott.
+
+For those looking for an introduction to computer architecture from a more traditional academic perspective, I recommend P&H chapters 1.3-1.5 and 2.4, as well as an 61C lecture from 55:51 onward I'll upload sometime soon.
